@@ -20,8 +20,8 @@ for r in range(5):
                 length *= .9
                 width *= .9
                 height *= .9
-            x += 1
-            y += 1
+        x += 1
+        y += 1
 
 
 
