@@ -18,7 +18,7 @@ t_distance = 2
 for r in range(5):
     for c in range(5):
         x = ix + c * t_distance
-        y = iy + c * t_distance
+        y = iy + r * t_distance
         z = iz
 
         height = ih
