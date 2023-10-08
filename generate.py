@@ -1,6 +1,6 @@
 import pyrosim.pyrosim as pyrosim
 
-pyrosim.Start_SDF("box.sdf")
+pyrosim.Start_SDF("boxes.sdf")
 
 #dimensions for size
 length = 1
