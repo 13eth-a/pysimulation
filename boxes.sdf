@@ -16,6 +16,36 @@
             <collision>
                 <geometry>
                    <box>
+                      <size>1 1 1</size>
+                   </box>
+                </geometry>
+            </collision>
+            <visual>
+                <geometry>
+                   <box>
+                      <size>1 1 1</size>
+                   </box>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+    <model name="Box">
+        <pose>0 0 0.5 0 0 0 </pose>
+        <link name="Box">
+            <inertial>
+                <mass>1.0</mass>
+                <inertia>
+                    <ixx>0.083</ixx>
+                    <ixy>0.0</ixy>
+                    <ixz>0.0</ixz>
+                    <iyy>0.083</iyy>
+                    <iyz>0.0</iyz>
+                    <izz>0.083</izz>
+                </inertia>
+            </inertial>
+            <collision>
+                <geometry>
+                   <box>
                       <size>0.9 0.9 0.9</size>
                    </box>
                 </geometry>
@@ -30,7 +60,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1 1 0.5 0 0 0 </pose>
+        <pose>0 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -60,7 +90,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>5 5 0.5 0 0 0 </pose>
+        <pose>0 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -90,7 +120,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>23 23 0.5 0 0 0 </pose>
+        <pose>0 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -120,7 +150,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>119 119 0.5 0 0 0 </pose>
+        <pose>0 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -150,7 +180,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>719 719 0.5 0 0 0 </pose>
+        <pose>0 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -180,7 +210,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>5039 5039 0.5 0 0 0 </pose>
+        <pose>0 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -210,7 +240,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>40319 40319 0.5 0 0 0 </pose>
+        <pose>0 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -240,7 +270,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>362879 362879 0.5 0 0 0 </pose>
+        <pose>0 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -270,7 +300,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>3628799 3628799 0.5 0 0 0 </pose>
+        <pose>1 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -300,7 +330,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>3628799 3628799 0.5 0 0 0 </pose>
+        <pose>1 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -330,7 +360,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>7257599 7257599 0.5 0 0 0 </pose>
+        <pose>1 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -360,7 +390,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>21772799 21772799 0.5 0 0 0 </pose>
+        <pose>1 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -390,7 +420,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>87091199 87091199 0.5 0 0 0 </pose>
+        <pose>1 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -420,7 +450,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>435455999 435455999 0.5 0 0 0 </pose>
+        <pose>1 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -450,7 +480,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>2612735999 2612735999 0.5 0 0 0 </pose>
+        <pose>1 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -480,7 +510,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>18289151999 18289151999 0.5 0 0 0 </pose>
+        <pose>1 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -510,7 +540,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>146313215999 146313215999 0.5 0 0 0 </pose>
+        <pose>1 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -540,7 +570,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1316818943999 1316818943999 0.5 0 0 0 </pose>
+        <pose>1 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -570,7 +600,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>13168189439999 13168189439999 0.5 0 0 0 </pose>
+        <pose>2 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -600,7 +630,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>13168189439999 13168189439999 0.5 0 0 0 </pose>
+        <pose>2 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -630,7 +660,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>26336378879999 26336378879999 0.5 0 0 0 </pose>
+        <pose>2 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -660,7 +690,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>79009136639999 79009136639999 0.5 0 0 0 </pose>
+        <pose>2 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -690,7 +720,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>316036546559999 316036546559999 0.5 0 0 0 </pose>
+        <pose>2 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -720,7 +750,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1580182732799999 1580182732799999 0.5 0 0 0 </pose>
+        <pose>2 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -750,7 +780,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>9481096396799999 9481096396799999 0.5 0 0 0 </pose>
+        <pose>2 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -780,7 +810,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>66367674777599999 66367674777599999 0.5 0 0 0 </pose>
+        <pose>2 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -810,7 +840,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>530941398220799999 530941398220799999 0.5 0 0 0 </pose>
+        <pose>2 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -840,7 +870,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>4778472583987199999 4778472583987199999 0.5 0 0 0 </pose>
+        <pose>2 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -870,7 +900,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>47784725839871999999 47784725839871999999 0.5 0 0 0 </pose>
+        <pose>3 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -900,7 +930,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>47784725839871999999 47784725839871999999 0.5 0 0 0 </pose>
+        <pose>3 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -930,7 +960,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>95569451679743999999 95569451679743999999 0.5 0 0 0 </pose>
+        <pose>3 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -960,7 +990,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>286708355039231999999 286708355039231999999 0.5 0 0 0 </pose>
+        <pose>3 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -990,7 +1020,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1146833420156927999999 1146833420156927999999 0.5 0 0 0 </pose>
+        <pose>3 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1020,7 +1050,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>5734167100784639999999 5734167100784639999999 0.5 0 0 0 </pose>
+        <pose>3 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1050,7 +1080,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>34405002604707839999999 34405002604707839999999 0.5 0 0 0 </pose>
+        <pose>3 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1080,7 +1110,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>240835018232954879999999 240835018232954879999999 0.5 0 0 0 </pose>
+        <pose>3 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1110,7 +1140,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1926680145863639039999999 1926680145863639039999999 0.5 0 0 0 </pose>
+        <pose>3 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1140,7 +1170,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>17340121312772751359999999 17340121312772751359999999 0.5 0 0 0 </pose>
+        <pose>3 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1170,7 +1200,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>173401213127727513599999999 173401213127727513599999999 0.5 0 0 0 </pose>
+        <pose>4 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1200,7 +1230,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>173401213127727513599999999 173401213127727513599999999 0.5 0 0 0 </pose>
+        <pose>4 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1230,7 +1260,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>346802426255455027199999999 346802426255455027199999999 0.5 0 0 0 </pose>
+        <pose>4 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1260,7 +1290,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1040407278766365081599999999 1040407278766365081599999999 0.5 0 0 0 </pose>
+        <pose>4 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1290,7 +1320,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>4161629115065460326399999999 4161629115065460326399999999 0.5 0 0 0 </pose>
+        <pose>4 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1320,7 +1350,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>20808145575327301631999999999 20808145575327301631999999999 0.5 0 0 0 </pose>
+        <pose>4 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1350,7 +1380,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>124848873451963809791999999999 124848873451963809791999999999 0.5 0 0 0 </pose>
+        <pose>4 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1380,7 +1410,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>873942114163746668543999999999 873942114163746668543999999999 0.5 0 0 0 </pose>
+        <pose>4 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1410,7 +1440,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>6991536913309973348351999999999 6991536913309973348351999999999 0.5 0 0 0 </pose>
+        <pose>4 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1440,7 +1470,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>62923832219789760135167999999999 62923832219789760135167999999999 0.5 0 0 0 </pose>
+        <pose>4 0 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1470,7 +1500,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>629238322197897601351679999999999 629238322197897601351679999999999 0.5 0 0 0 </pose>
+        <pose>5 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1500,7 +1530,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>629238322197897601351679999999999 629238322197897601351679999999999 0.5 0 0 0 </pose>
+        <pose>5 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1530,7 +1560,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1258476644395795202703359999999999 1258476644395795202703359999999999 0.5 0 0 0 </pose>
+        <pose>5 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1560,7 +1590,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>3775429933187385608110079999999999 3775429933187385608110079999999999 0.5 0 0 0 </pose>
+        <pose>5 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1590,7 +1620,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>15101719732749542432440319999999999 15101719732749542432440319999999999 0.5 0 0 0 </pose>
+        <pose>5 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1620,7 +1650,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>75508598663747712162201599999999999 75508598663747712162201599999999999 0.5 0 0 0 </pose>
+        <pose>5 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1650,7 +1680,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>453051591982486272973209599999999999 453051591982486272973209599999999999 0.5 0 0 0 </pose>
+        <pose>5 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1680,7 +1710,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>3171361143877403910812467199999999999 3171361143877403910812467199999999999 0.5 0 0 0 </pose>
+        <pose>5 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1710,7 +1740,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>25370889151019231286499737599999999999 25370889151019231286499737599999999999 0.5 0 0 0 </pose>
+        <pose>5 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1740,7 +1770,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>228338002359173081578497638399999999999 228338002359173081578497638399999999999 0.5 0 0 0 </pose>
+        <pose>5 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1770,7 +1800,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>2283380023591730815784976383999999999999 2283380023591730815784976383999999999999 0.5 0 0 0 </pose>
+        <pose>6 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1800,7 +1830,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>2283380023591730815784976383999999999999 2283380023591730815784976383999999999999 0.5 0 0 0 </pose>
+        <pose>6 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1830,7 +1860,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>4566760047183461631569952767999999999999 4566760047183461631569952767999999999999 0.5 0 0 0 </pose>
+        <pose>6 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1860,7 +1890,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>13700280141550384894709858303999999999999 13700280141550384894709858303999999999999 0.5 0 0 0 </pose>
+        <pose>6 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1890,7 +1920,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>54801120566201539578839433215999999999999 54801120566201539578839433215999999999999 0.5 0 0 0 </pose>
+        <pose>6 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1920,7 +1950,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>274005602831007697894197166079999999999999 274005602831007697894197166079999999999999 0.5 0 0 0 </pose>
+        <pose>6 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1950,7 +1980,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1644033616986046187365182996479999999999999 1644033616986046187365182996479999999999999 0.5 0 0 0 </pose>
+        <pose>6 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -1980,7 +2010,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>11508235318902323311556280975359999999999999 11508235318902323311556280975359999999999999 0.5 0 0 0 </pose>
+        <pose>6 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2010,7 +2040,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>92065882551218586492450247802879999999999999 92065882551218586492450247802879999999999999 0.5 0 0 0 </pose>
+        <pose>6 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2040,7 +2070,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>828592942960967278432052230225919999999999999 828592942960967278432052230225919999999999999 0.5 0 0 0 </pose>
+        <pose>6 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2070,7 +2100,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>8285929429609672784320522302259199999999999999 8285929429609672784320522302259199999999999999 0.5 0 0 0 </pose>
+        <pose>7 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2100,7 +2130,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>8285929429609672784320522302259199999999999999 8285929429609672784320522302259199999999999999 0.5 0 0 0 </pose>
+        <pose>7 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2130,7 +2160,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>16571858859219345568641044604518399999999999999 16571858859219345568641044604518399999999999999 0.5 0 0 0 </pose>
+        <pose>7 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2160,7 +2190,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>49715576577658036705923133813555199999999999999 49715576577658036705923133813555199999999999999 0.5 0 0 0 </pose>
+        <pose>7 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2190,7 +2220,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>198862306310632146823692535254220799999999999999 198862306310632146823692535254220799999999999999 0.5 0 0 0 </pose>
+        <pose>7 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2220,7 +2250,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>994311531553160734118462676271103999999999999999 994311531553160734118462676271103999999999999999 0.5 0 0 0 </pose>
+        <pose>7 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2250,7 +2280,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>5965869189318964404710776057626623999999999999999 5965869189318964404710776057626623999999999999999 0.5 0 0 0 </pose>
+        <pose>7 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2280,7 +2310,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>41761084325232750832975432403386367999999999999999 41761084325232750832975432403386367999999999999999 0.5 0 0 0 </pose>
+        <pose>7 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2310,7 +2340,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>334088674601862006663803459227090943999999999999999 334088674601862006663803459227090943999999999999999 0.5 0 0 0 </pose>
+        <pose>7 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2340,7 +2370,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>3006798071416758059974231133043818495999999999999999 3006798071416758059974231133043818495999999999999999 0.5 0 0 0 </pose>
+        <pose>7 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2370,7 +2400,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>30067980714167580599742311330438184959999999999999999 30067980714167580599742311330438184959999999999999999 0.5 0 0 0 </pose>
+        <pose>8 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2400,7 +2430,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>30067980714167580599742311330438184959999999999999999 30067980714167580599742311330438184959999999999999999 0.5 0 0 0 </pose>
+        <pose>8 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2430,7 +2460,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>60135961428335161199484622660876369919999999999999999 60135961428335161199484622660876369919999999999999999 0.5 0 0 0 </pose>
+        <pose>8 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2460,7 +2490,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>180407884285005483598453867982629109759999999999999999 180407884285005483598453867982629109759999999999999999 0.5 0 0 0 </pose>
+        <pose>8 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2490,7 +2520,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>721631537140021934393815471930516439039999999999999999 721631537140021934393815471930516439039999999999999999 0.5 0 0 0 </pose>
+        <pose>8 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2520,7 +2550,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>3608157685700109671969077359652582195199999999999999999 3608157685700109671969077359652582195199999999999999999 0.5 0 0 0 </pose>
+        <pose>8 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2550,7 +2580,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>21648946114200658031814464157915493171199999999999999999 21648946114200658031814464157915493171199999999999999999 0.5 0 0 0 </pose>
+        <pose>8 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2580,7 +2610,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>151542622799404606222701249105408452198399999999999999999 151542622799404606222701249105408452198399999999999999999 0.5 0 0 0 </pose>
+        <pose>8 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2610,7 +2640,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1212340982395236849781609992843267617587199999999999999999 1212340982395236849781609992843267617587199999999999999999 0.5 0 0 0 </pose>
+        <pose>8 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2640,7 +2670,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>10911068841557131648034489935589408558284799999999999999999 10911068841557131648034489935589408558284799999999999999999 0.5 0 0 0 </pose>
+        <pose>8 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2670,7 +2700,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>109110688415571316480344899355894085582847999999999999999999 109110688415571316480344899355894085582847999999999999999999 0.5 0 0 0 </pose>
+        <pose>9 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2700,7 +2730,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>109110688415571316480344899355894085582847999999999999999999 109110688415571316480344899355894085582847999999999999999999 0.5 0 0 0 </pose>
+        <pose>9 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2730,7 +2760,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>218221376831142632960689798711788171165695999999999999999999 218221376831142632960689798711788171165695999999999999999999 0.5 0 0 0 </pose>
+        <pose>9 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2760,7 +2790,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>654664130493427898882069396135364513497087999999999999999999 654664130493427898882069396135364513497087999999999999999999 0.5 0 0 0 </pose>
+        <pose>9 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2790,7 +2820,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>2618656521973711595528277584541458053988351999999999999999999 2618656521973711595528277584541458053988351999999999999999999 0.5 0 0 0 </pose>
+        <pose>9 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2820,7 +2850,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>13093282609868557977641387922707290269941759999999999999999999 13093282609868557977641387922707290269941759999999999999999999 0.5 0 0 0 </pose>
+        <pose>9 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2850,7 +2880,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>78559695659211347865848327536243741619650559999999999999999999 78559695659211347865848327536243741619650559999999999999999999 0.5 0 0 0 </pose>
+        <pose>9 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2880,7 +2910,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>549917869614479435060938292753706191337553919999999999999999999 549917869614479435060938292753706191337553919999999999999999999 0.5 0 0 0 </pose>
+        <pose>9 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2910,7 +2940,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>4399342956915835480487506342029649530700431359999999999999999999 4399342956915835480487506342029649530700431359999999999999999999 0.5 0 0 0 </pose>
+        <pose>9 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2940,7 +2970,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>39594086612242519324387557078266845776303882239999999999999999999 39594086612242519324387557078266845776303882239999999999999999999 0.5 0 0 0 </pose>
+        <pose>9 1 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -2970,7 +3000,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>395940866122425193243875570782668457763038822399999999999999999999 395940866122425193243875570782668457763038822399999999999999999999 0.5 0 0 0 </pose>
+        <pose>10 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3000,7 +3030,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>395940866122425193243875570782668457763038822399999999999999999999 395940866122425193243875570782668457763038822399999999999999999999 0.5 0 0 0 </pose>
+        <pose>10 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3030,7 +3060,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>791881732244850386487751141565336915526077644799999999999999999999 791881732244850386487751141565336915526077644799999999999999999999 0.5 0 0 0 </pose>
+        <pose>10 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3060,7 +3090,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>2375645196734551159463253424696010746578232934399999999999999999999 2375645196734551159463253424696010746578232934399999999999999999999 0.5 0 0 0 </pose>
+        <pose>10 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3090,7 +3120,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>9502580786938204637853013698784042986312931737599999999999999999999 9502580786938204637853013698784042986312931737599999999999999999999 0.5 0 0 0 </pose>
+        <pose>10 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3120,7 +3150,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>47512903934691023189265068493920214931564658687999999999999999999999 47512903934691023189265068493920214931564658687999999999999999999999 0.5 0 0 0 </pose>
+        <pose>10 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3150,7 +3180,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>285077423608146139135590410963521289589387952127999999999999999999999 285077423608146139135590410963521289589387952127999999999999999999999 0.5 0 0 0 </pose>
+        <pose>10 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3180,7 +3210,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1995541965257022973949132876744649027125715664895999999999999999999999 1995541965257022973949132876744649027125715664895999999999999999999999 0.5 0 0 0 </pose>
+        <pose>10 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3210,7 +3240,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>15964335722056183791593063013957192217005725319167999999999999999999999 15964335722056183791593063013957192217005725319167999999999999999999999 0.5 0 0 0 </pose>
+        <pose>10 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3240,7 +3270,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>143679021498505654124337567125614729953051527872511999999999999999999999 143679021498505654124337567125614729953051527872511999999999999999999999 0.5 0 0 0 </pose>
+        <pose>10 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3270,7 +3300,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1436790214985056541243375671256147299530515278725119999999999999999999999 1436790214985056541243375671256147299530515278725119999999999999999999999 0.5 0 0 0 </pose>
+        <pose>11 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3300,7 +3330,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1436790214985056541243375671256147299530515278725119999999999999999999999 1436790214985056541243375671256147299530515278725119999999999999999999999 0.5 0 0 0 </pose>
+        <pose>11 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3330,7 +3360,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>2873580429970113082486751342512294599061030557450239999999999999999999999 2873580429970113082486751342512294599061030557450239999999999999999999999 0.5 0 0 0 </pose>
+        <pose>11 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3360,7 +3390,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>8620741289910339247460254027536883797183091672350719999999999999999999999 8620741289910339247460254027536883797183091672350719999999999999999999999 0.5 0 0 0 </pose>
+        <pose>11 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3390,7 +3420,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>34482965159641356989841016110147535188732366689402879999999999999999999999 34482965159641356989841016110147535188732366689402879999999999999999999999 0.5 0 0 0 </pose>
+        <pose>11 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3420,7 +3450,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>172414825798206784949205080550737675943661833447014399999999999999999999999 172414825798206784949205080550737675943661833447014399999999999999999999999 0.5 0 0 0 </pose>
+        <pose>11 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3450,7 +3480,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1034488954789240709695230483304426055661971000682086399999999999999999999999 1034488954789240709695230483304426055661971000682086399999999999999999999999 0.5 0 0 0 </pose>
+        <pose>11 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3480,7 +3510,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>7241422683524684967866613383130982389633797004774604799999999999999999999999 7241422683524684967866613383130982389633797004774604799999999999999999999999 0.5 0 0 0 </pose>
+        <pose>11 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3510,7 +3540,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>57931381468197479742932907065047859117070376038196838399999999999999999999999 57931381468197479742932907065047859117070376038196838399999999999999999999999 0.5 0 0 0 </pose>
+        <pose>11 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3540,7 +3570,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>521382433213777317686396163585430732053633384343771545599999999999999999999999 521382433213777317686396163585430732053633384343771545599999999999999999999999 0.5 0 0 0 </pose>
+        <pose>11 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3570,7 +3600,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>5213824332137773176863961635854307320536333843437715455999999999999999999999999 5213824332137773176863961635854307320536333843437715455999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>12 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3600,7 +3630,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>5213824332137773176863961635854307320536333843437715455999999999999999999999999 5213824332137773176863961635854307320536333843437715455999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>12 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3630,7 +3660,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>10427648664275546353727923271708614641072667686875430911999999999999999999999999 10427648664275546353727923271708614641072667686875430911999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>12 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3660,7 +3690,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>31282945992826639061183769815125843923218003060626292735999999999999999999999999 31282945992826639061183769815125843923218003060626292735999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>12 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3690,7 +3720,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>125131783971306556244735079260503375692872012242505170943999999999999999999999999 125131783971306556244735079260503375692872012242505170943999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>12 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3720,7 +3750,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>625658919856532781223675396302516878464360061212525854719999999999999999999999999 625658919856532781223675396302516878464360061212525854719999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>12 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3750,7 +3780,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>3753953519139196687342052377815101270786160367275155128319999999999999999999999999 3753953519139196687342052377815101270786160367275155128319999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>12 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3780,7 +3810,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>26277674633974376811394366644705708895503122570926085898239999999999999999999999999 26277674633974376811394366644705708895503122570926085898239999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>12 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3810,7 +3840,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>210221397071795014491154933157645671164024980567408687185919999999999999999999999999 210221397071795014491154933157645671164024980567408687185919999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>12 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3840,7 +3870,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1891992573646155130420394398418811040476224825106678184673279999999999999999999999999 1891992573646155130420394398418811040476224825106678184673279999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>12 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3870,7 +3900,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>18919925736461551304203943984188110404762248251066781846732799999999999999999999999999 18919925736461551304203943984188110404762248251066781846732799999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>13 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3900,7 +3930,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>18919925736461551304203943984188110404762248251066781846732799999999999999999999999999 18919925736461551304203943984188110404762248251066781846732799999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>13 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3930,7 +3960,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>37839851472923102608407887968376220809524496502133563693465599999999999999999999999999 37839851472923102608407887968376220809524496502133563693465599999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>13 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3960,7 +3990,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>113519554418769307825223663905128662428573489506400691080396799999999999999999999999999 113519554418769307825223663905128662428573489506400691080396799999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>13 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -3990,7 +4020,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>454078217675077231300894655620514649714293958025602764321587199999999999999999999999999 454078217675077231300894655620514649714293958025602764321587199999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>13 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4020,7 +4050,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>2270391088375386156504473278102573248571469790128013821607935999999999999999999999999999 2270391088375386156504473278102573248571469790128013821607935999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>13 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4050,7 +4080,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>13622346530252316939026839668615439491428818740768082929647615999999999999999999999999999 13622346530252316939026839668615439491428818740768082929647615999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>13 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4080,7 +4110,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>95356425711766218573187877680308076440001731185376580507533311999999999999999999999999999 95356425711766218573187877680308076440001731185376580507533311999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>13 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4110,7 +4140,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>762851405694129748585503021442464611520013849483012644060266495999999999999999999999999999 762851405694129748585503021442464611520013849483012644060266495999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>13 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4140,7 +4170,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>6865662651247167737269527192982181503680124645347113796542398463999999999999999999999999999 6865662651247167737269527192982181503680124645347113796542398463999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>13 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4170,7 +4200,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>68656626512471677372695271929821815036801246453471137965423984639999999999999999999999999999 68656626512471677372695271929821815036801246453471137965423984639999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>14 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4200,7 +4230,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>68656626512471677372695271929821815036801246453471137965423984639999999999999999999999999999 68656626512471677372695271929821815036801246453471137965423984639999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>14 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4230,7 +4260,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>137313253024943354745390543859643630073602492906942275930847969279999999999999999999999999999 137313253024943354745390543859643630073602492906942275930847969279999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>14 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4260,7 +4290,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>411939759074830064236171631578930890220807478720826827792543907839999999999999999999999999999 411939759074830064236171631578930890220807478720826827792543907839999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>14 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4290,7 +4320,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1647759036299320256944686526315723560883229914883307311170175631359999999999999999999999999999 1647759036299320256944686526315723560883229914883307311170175631359999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>14 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4320,7 +4350,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>8238795181496601284723432631578617804416149574416536555850878156799999999999999999999999999999 8238795181496601284723432631578617804416149574416536555850878156799999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>14 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4350,7 +4380,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>49432771088979607708340595789471706826496897446499219335105268940799999999999999999999999999999 49432771088979607708340595789471706826496897446499219335105268940799999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>14 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4380,7 +4410,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>346029397622857253958384170526301947785478282125494535345736882585599999999999999999999999999999 346029397622857253958384170526301947785478282125494535345736882585599999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>14 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4410,7 +4440,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>2768235180982858031667073364210415582283826257003956282765895060684799999999999999999999999999999 2768235180982858031667073364210415582283826257003956282765895060684799999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>14 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4440,7 +4470,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>24914116628845722285003660277893740240554436313035606544893055546163199999999999999999999999999999 24914116628845722285003660277893740240554436313035606544893055546163199999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>14 2 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4470,7 +4500,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>249141166288457222850036602778937402405544363130356065448930555461631999999999999999999999999999999 249141166288457222850036602778937402405544363130356065448930555461631999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>15 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4500,7 +4530,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>249141166288457222850036602778937402405544363130356065448930555461631999999999999999999999999999999 249141166288457222850036602778937402405544363130356065448930555461631999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>15 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4530,7 +4560,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>498282332576914445700073205557874804811088726260712130897861110923263999999999999999999999999999999 498282332576914445700073205557874804811088726260712130897861110923263999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>15 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4560,7 +4590,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1494846997730743337100219616673624414433266178782136392693583332769791999999999999999999999999999999 1494846997730743337100219616673624414433266178782136392693583332769791999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>15 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4590,7 +4620,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>5979387990922973348400878466694497657733064715128545570774333331079167999999999999999999999999999999 5979387990922973348400878466694497657733064715128545570774333331079167999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>15 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4620,7 +4650,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>29896939954614866742004392333472488288665323575642727853871666655395839999999999999999999999999999999 29896939954614866742004392333472488288665323575642727853871666655395839999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>15 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4650,7 +4680,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>179381639727689200452026354000834929731991941453856367123229999932375039999999999999999999999999999999 179381639727689200452026354000834929731991941453856367123229999932375039999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>15 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4680,7 +4710,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1255671478093824403164184478005844508123943590176994569862609999526625279999999999999999999999999999999 1255671478093824403164184478005844508123943590176994569862609999526625279999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>15 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4710,7 +4740,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>10045371824750595225313475824046756064991548721415956558900879996213002239999999999999999999999999999999 10045371824750595225313475824046756064991548721415956558900879996213002239999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>15 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4740,7 +4770,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>90408346422755357027821282416420804584923938492743609030107919965917020159999999999999999999999999999999 90408346422755357027821282416420804584923938492743609030107919965917020159999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>15 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4770,7 +4800,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>904083464227553570278212824164208045849239384927436090301079199659170201599999999999999999999999999999999 904083464227553570278212824164208045849239384927436090301079199659170201599999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>16 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4800,7 +4830,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>904083464227553570278212824164208045849239384927436090301079199659170201599999999999999999999999999999999 904083464227553570278212824164208045849239384927436090301079199659170201599999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>16 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4830,7 +4860,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1808166928455107140556425648328416091698478769854872180602158399318340403199999999999999999999999999999999 1808166928455107140556425648328416091698478769854872180602158399318340403199999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>16 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4860,7 +4890,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>5424500785365321421669276944985248275095436309564616541806475197955021209599999999999999999999999999999999 5424500785365321421669276944985248275095436309564616541806475197955021209599999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>16 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4890,7 +4920,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>21698003141461285686677107779940993100381745238258466167225900791820084838399999999999999999999999999999999 21698003141461285686677107779940993100381745238258466167225900791820084838399999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>16 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4920,7 +4950,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>108490015707306428433385538899704965501908726191292330836129503959100424191999999999999999999999999999999999 108490015707306428433385538899704965501908726191292330836129503959100424191999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>16 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4950,7 +4980,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>650940094243838570600313233398229793011452357147753985016777023754602545151999999999999999999999999999999999 650940094243838570600313233398229793011452357147753985016777023754602545151999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>16 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -4980,7 +5010,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>4556580659706869994202192633787608551080166500034277895117439166282217816063999999999999999999999999999999999 4556580659706869994202192633787608551080166500034277895117439166282217816063999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>16 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5010,7 +5040,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>36452645277654959953617541070300868408641332000274223160939513330257742528511999999999999999999999999999999999 36452645277654959953617541070300868408641332000274223160939513330257742528511999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>16 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5040,7 +5070,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>328073807498894639582557869632707815677771988002468008448455619972319682756607999999999999999999999999999999999 328073807498894639582557869632707815677771988002468008448455619972319682756607999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>16 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5070,7 +5100,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>3280738074988946395825578696327078156777719880024680084484556199723196827566079999999999999999999999999999999999 3280738074988946395825578696327078156777719880024680084484556199723196827566079999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>17 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5100,7 +5130,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>3280738074988946395825578696327078156777719880024680084484556199723196827566079999999999999999999999999999999999 3280738074988946395825578696327078156777719880024680084484556199723196827566079999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>17 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5130,7 +5160,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>6561476149977892791651157392654156313555439760049360168969112399446393655132159999999999999999999999999999999999 6561476149977892791651157392654156313555439760049360168969112399446393655132159999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>17 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5160,7 +5190,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>19684428449933678374953472177962468940666319280148080506907337198339180965396479999999999999999999999999999999999 19684428449933678374953472177962468940666319280148080506907337198339180965396479999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>17 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5190,7 +5220,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>78737713799734713499813888711849875762665277120592322027629348793356723861585919999999999999999999999999999999999 78737713799734713499813888711849875762665277120592322027629348793356723861585919999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>17 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5220,7 +5250,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>393688568998673567499069443559249378813326385602961610138146743966783619307929599999999999999999999999999999999999 393688568998673567499069443559249378813326385602961610138146743966783619307929599999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>17 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5250,7 +5280,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>2362131413992041404994416661355496272879958313617769660828880463800701715847577599999999999999999999999999999999999 2362131413992041404994416661355496272879958313617769660828880463800701715847577599999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>17 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5280,7 +5310,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>16534919897944289834960916629488473910159708195324387625802163246604912010933043199999999999999999999999999999999999 16534919897944289834960916629488473910159708195324387625802163246604912010933043199999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>17 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5310,7 +5340,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>132279359183554318679687333035907791281277665562595101006417305972839296087464345599999999999999999999999999999999999 132279359183554318679687333035907791281277665562595101006417305972839296087464345599999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>17 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5340,7 +5370,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1190514232651988868117185997323170121531498990063355909057755753755553664787179110399999999999999999999999999999999999 1190514232651988868117185997323170121531498990063355909057755753755553664787179110399999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>17 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5370,7 +5400,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>11905142326519888681171859973231701215314989900633559090577557537555536647871791103999999999999999999999999999999999999 11905142326519888681171859973231701215314989900633559090577557537555536647871791103999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>18 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5400,7 +5430,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>11905142326519888681171859973231701215314989900633559090577557537555536647871791103999999999999999999999999999999999999 11905142326519888681171859973231701215314989900633559090577557537555536647871791103999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>18 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5430,7 +5460,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>23810284653039777362343719946463402430629979801267118181155115075111073295743582207999999999999999999999999999999999999 23810284653039777362343719946463402430629979801267118181155115075111073295743582207999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>18 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5460,7 +5490,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>71430853959119332087031159839390207291889939403801354543465345225333219887230746623999999999999999999999999999999999999 71430853959119332087031159839390207291889939403801354543465345225333219887230746623999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>18 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5490,7 +5520,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>285723415836477328348124639357560829167559757615205418173861380901332879548922986495999999999999999999999999999999999999 285723415836477328348124639357560829167559757615205418173861380901332879548922986495999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>18 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5520,7 +5550,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1428617079182386641740623196787804145837798788076027090869306904506664397744614932479999999999999999999999999999999999999 1428617079182386641740623196787804145837798788076027090869306904506664397744614932479999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>18 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5550,7 +5580,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>8571702475094319850443739180726824875026792728456162545215841427039986386467689594879999999999999999999999999999999999999 8571702475094319850443739180726824875026792728456162545215841427039986386467689594879999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>18 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5580,7 +5610,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>60001917325660238953106174265087774125187549099193137816510889989279904705273827164159999999999999999999999999999999999999 60001917325660238953106174265087774125187549099193137816510889989279904705273827164159999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>18 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5610,7 +5640,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>480015338605281911624849394120702193001500392793545102532087119914239237642190617313279999999999999999999999999999999999999 480015338605281911624849394120702193001500392793545102532087119914239237642190617313279999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>18 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5640,7 +5670,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>4320138047447537204623644547086319737013503535141905922788784079228153138779715555819519999999999999999999999999999999999999 4320138047447537204623644547086319737013503535141905922788784079228153138779715555819519999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>18 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5670,7 +5700,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>43201380474475372046236445470863197370135035351419059227887840792281531387797155558195199999999999999999999999999999999999999 43201380474475372046236445470863197370135035351419059227887840792281531387797155558195199999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>19 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5700,7 +5730,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>43201380474475372046236445470863197370135035351419059227887840792281531387797155558195199999999999999999999999999999999999999 43201380474475372046236445470863197370135035351419059227887840792281531387797155558195199999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>19 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5730,7 +5760,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>86402760948950744092472890941726394740270070702838118455775681584563062775594311116390399999999999999999999999999999999999999 86402760948950744092472890941726394740270070702838118455775681584563062775594311116390399999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>19 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5760,7 +5790,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>259208282846852232277418672825179184220810212108514355367327044753689188326782933349171199999999999999999999999999999999999999 259208282846852232277418672825179184220810212108514355367327044753689188326782933349171199999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>19 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5790,7 +5820,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1036833131387408929109674691300716736883240848434057421469308179014756753307131733396684799999999999999999999999999999999999999 1036833131387408929109674691300716736883240848434057421469308179014756753307131733396684799999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>19 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5820,7 +5850,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>5184165656937044645548373456503583684416204242170287107346540895073783766535658666983423999999999999999999999999999999999999999 5184165656937044645548373456503583684416204242170287107346540895073783766535658666983423999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>19 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5850,7 +5880,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>31104993941622267873290240739021502106497225453021722644079245370442702599213952001900543999999999999999999999999999999999999999 31104993941622267873290240739021502106497225453021722644079245370442702599213952001900543999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>19 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5880,7 +5910,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>217734957591355875113031685173150514745480578171152058508554717593098918194497664013303807999999999999999999999999999999999999999 217734957591355875113031685173150514745480578171152058508554717593098918194497664013303807999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>19 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5910,7 +5940,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1741879660730847000904253481385204117963844625369216468068437740744791345555981312106430463999999999999999999999999999999999999999 1741879660730847000904253481385204117963844625369216468068437740744791345555981312106430463999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>19 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5940,7 +5970,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>15676916946577623008138281332466837061674601628322948212615939666703122110003831808957874175999999999999999999999999999999999999999 15676916946577623008138281332466837061674601628322948212615939666703122110003831808957874175999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>19 3 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -5970,7 +6000,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>156769169465776230081382813324668370616746016283229482126159396667031221100038318089578741759999999999999999999999999999999999999999 156769169465776230081382813324668370616746016283229482126159396667031221100038318089578741759999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>20 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6000,7 +6030,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>156769169465776230081382813324668370616746016283229482126159396667031221100038318089578741759999999999999999999999999999999999999999 156769169465776230081382813324668370616746016283229482126159396667031221100038318089578741759999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>20 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6030,7 +6060,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>313538338931552460162765626649336741233492032566458964252318793334062442200076636179157483519999999999999999999999999999999999999999 313538338931552460162765626649336741233492032566458964252318793334062442200076636179157483519999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>20 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6060,7 +6090,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>940615016794657380488296879948010223700476097699376892756956380002187326600229908537472450559999999999999999999999999999999999999999 940615016794657380488296879948010223700476097699376892756956380002187326600229908537472450559999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>20 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6090,7 +6120,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>3762460067178629521953187519792040894801904390797507571027825520008749306400919634149889802239999999999999999999999999999999999999999 3762460067178629521953187519792040894801904390797507571027825520008749306400919634149889802239999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>20 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6120,7 +6150,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>18812300335893147609765937598960204474009521953987537855139127600043746532004598170749449011199999999999999999999999999999999999999999 18812300335893147609765937598960204474009521953987537855139127600043746532004598170749449011199999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>20 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6150,7 +6180,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>112873802015358885658595625593761226844057131723925227130834765600262479192027589024496694067199999999999999999999999999999999999999999 112873802015358885658595625593761226844057131723925227130834765600262479192027589024496694067199999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>20 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6180,7 +6210,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>790116614107512199610169379156328587908399922067476589915843359201837354344193123171476858470399999999999999999999999999999999999999999 790116614107512199610169379156328587908399922067476589915843359201837354344193123171476858470399999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>20 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6210,7 +6240,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>6320932912860097596881355033250628703267199376539812719326746873614698834753544985371814867763199999999999999999999999999999999999999999 6320932912860097596881355033250628703267199376539812719326746873614698834753544985371814867763199999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>20 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6240,7 +6270,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>56888396215740878371932195299255658329404794388858314473940721862532289512781904868346333809868799999999999999999999999999999999999999999 56888396215740878371932195299255658329404794388858314473940721862532289512781904868346333809868799999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>20 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6270,7 +6300,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>568883962157408783719321952992556583294047943888583144739407218625322895127819048683463338098687999999999999999999999999999999999999999999 568883962157408783719321952992556583294047943888583144739407218625322895127819048683463338098687999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>21 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6300,7 +6330,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>568883962157408783719321952992556583294047943888583144739407218625322895127819048683463338098687999999999999999999999999999999999999999999 568883962157408783719321952992556583294047943888583144739407218625322895127819048683463338098687999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>21 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6330,7 +6360,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1137767924314817567438643905985113166588095887777166289478814437250645790255638097366926676197375999999999999999999999999999999999999999999 1137767924314817567438643905985113166588095887777166289478814437250645790255638097366926676197375999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>21 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6360,7 +6390,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>3413303772944452702315931717955339499764287663331498868436443311751937370766914292100780028592127999999999999999999999999999999999999999999 3413303772944452702315931717955339499764287663331498868436443311751937370766914292100780028592127999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>21 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6390,7 +6420,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>13653215091777810809263726871821357999057150653325995473745773247007749483067657168403120114368511999999999999999999999999999999999999999999 13653215091777810809263726871821357999057150653325995473745773247007749483067657168403120114368511999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>21 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6420,7 +6450,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>68266075458889054046318634359106789995285753266629977368728866235038747415338285842015600571842559999999999999999999999999999999999999999999 68266075458889054046318634359106789995285753266629977368728866235038747415338285842015600571842559999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>21 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6450,7 +6480,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>409596452753334324277911806154640739971714519599779864212373197410232484492029715052093603431055359999999999999999999999999999999999999999999 409596452753334324277911806154640739971714519599779864212373197410232484492029715052093603431055359999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>21 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6480,7 +6510,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>2867175169273340269945382643082485179802001637198459049486612381871627391444208005364655224017387519999999999999999999999999999999999999999999 2867175169273340269945382643082485179802001637198459049486612381871627391444208005364655224017387519999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>21 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6510,7 +6540,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>22937401354186722159563061144659881438416013097587672395892899054973019131553664042917241792139100159999999999999999999999999999999999999999999 22937401354186722159563061144659881438416013097587672395892899054973019131553664042917241792139100159999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>21 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6540,7 +6570,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>206436612187680499436067550301938932945744117878289051563036091494757172183982976386255176129251901439999999999999999999999999999999999999999999 206436612187680499436067550301938932945744117878289051563036091494757172183982976386255176129251901439999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>21 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6570,7 +6600,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>2064366121876804994360675503019389329457441178782890515630360914947571721839829763862551761292519014399999999999999999999999999999999999999999999 2064366121876804994360675503019389329457441178782890515630360914947571721839829763862551761292519014399999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>22 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6600,7 +6630,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>2064366121876804994360675503019389329457441178782890515630360914947571721839829763862551761292519014399999999999999999999999999999999999999999999 2064366121876804994360675503019389329457441178782890515630360914947571721839829763862551761292519014399999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>22 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6630,7 +6660,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>4128732243753609988721351006038778658914882357565781031260721829895143443679659527725103522585038028799999999999999999999999999999999999999999999 4128732243753609988721351006038778658914882357565781031260721829895143443679659527725103522585038028799999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>22 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6660,7 +6690,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>12386196731260829966164053018116335976744647072697343093782165489685430331038978583175310567755114086399999999999999999999999999999999999999999999 12386196731260829966164053018116335976744647072697343093782165489685430331038978583175310567755114086399999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>22 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6690,7 +6720,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>49544786925043319864656212072465343906978588290789372375128661958741721324155914332701242271020456345599999999999999999999999999999999999999999999 49544786925043319864656212072465343906978588290789372375128661958741721324155914332701242271020456345599999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>22 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6720,7 +6750,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>247723934625216599323281060362326719534892941453946861875643309793708606620779571663506211355102281727999999999999999999999999999999999999999999999 247723934625216599323281060362326719534892941453946861875643309793708606620779571663506211355102281727999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>22 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6750,7 +6780,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1486343607751299595939686362173960317209357648723681171253859858762251639724677429981037268130613690367999999999999999999999999999999999999999999999 1486343607751299595939686362173960317209357648723681171253859858762251639724677429981037268130613690367999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>22 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6780,7 +6810,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>10404405254259097171577804535217722220465503541065768198777019011335761478072742009867260876914295832575999999999999999999999999999999999999999999999 10404405254259097171577804535217722220465503541065768198777019011335761478072742009867260876914295832575999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>22 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6810,7 +6840,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>83235242034072777372622436281741777763724028328526145590216152090686091824581936078938087015314366660607999999999999999999999999999999999999999999999 83235242034072777372622436281741777763724028328526145590216152090686091824581936078938087015314366660607999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>22 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6840,7 +6870,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>749117178306654996353601926535675999873516254956735310311945368816174826421237424710442783137829299945471999999999999999999999999999999999999999999999 749117178306654996353601926535675999873516254956735310311945368816174826421237424710442783137829299945471999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>22 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6870,7 +6900,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>7491171783066549963536019265356759998735162549567353103119453688161748264212374247104427831378292999454719999999999999999999999999999999999999999999999 7491171783066549963536019265356759998735162549567353103119453688161748264212374247104427831378292999454719999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>23 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6900,7 +6930,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>7491171783066549963536019265356759998735162549567353103119453688161748264212374247104427831378292999454719999999999999999999999999999999999999999999999 7491171783066549963536019265356759998735162549567353103119453688161748264212374247104427831378292999454719999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>23 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6930,7 +6960,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>14982343566133099927072038530713519997470325099134706206238907376323496528424748494208855662756585998909439999999999999999999999999999999999999999999999 14982343566133099927072038530713519997470325099134706206238907376323496528424748494208855662756585998909439999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>23 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6960,7 +6990,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>44947030698399299781216115592140559992410975297404118618716722128970489585274245482626566988269757996728319999999999999999999999999999999999999999999999 44947030698399299781216115592140559992410975297404118618716722128970489585274245482626566988269757996728319999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>23 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -6990,7 +7020,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>179788122793597199124864462368562239969643901189616474474866888515881958341096981930506267953079031986913279999999999999999999999999999999999999999999999 179788122793597199124864462368562239969643901189616474474866888515881958341096981930506267953079031986913279999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>23 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -7020,7 +7050,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>898940613967985995624322311842811199848219505948082372374334442579409791705484909652531339765395159934566399999999999999999999999999999999999999999999999 898940613967985995624322311842811199848219505948082372374334442579409791705484909652531339765395159934566399999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>23 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -7050,7 +7080,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>5393643683807915973745933871056867199089317035688494234246006655476458750232909457915188038592370959607398399999999999999999999999999999999999999999999999 5393643683807915973745933871056867199089317035688494234246006655476458750232909457915188038592370959607398399999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>23 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -7080,7 +7110,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>37755505786655411816221537097398070393625219249819459639722046588335211251630366205406316270146596717251788799999999999999999999999999999999999999999999999 37755505786655411816221537097398070393625219249819459639722046588335211251630366205406316270146596717251788799999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>23 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -7110,7 +7140,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>302044046293243294529772296779184563149001753998555677117776372706681690013042929643250530161172773738014310399999999999999999999999999999999999999999999999 302044046293243294529772296779184563149001753998555677117776372706681690013042929643250530161172773738014310399999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>23 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -7140,7 +7170,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>2718396416639189650767950671012661068341015785987001094059987354360135210117386366789254771450554963642128793599999999999999999999999999999999999999999999999 2718396416639189650767950671012661068341015785987001094059987354360135210117386366789254771450554963642128793599999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>23 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -7170,7 +7200,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>27183964166391896507679506710126610683410157859870010940599873543601352101173863667892547714505549636421287935999999999999999999999999999999999999999999999999 27183964166391896507679506710126610683410157859870010940599873543601352101173863667892547714505549636421287935999999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>24 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -7200,7 +7230,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>27183964166391896507679506710126610683410157859870010940599873543601352101173863667892547714505549636421287935999999999999999999999999999999999999999999999999 27183964166391896507679506710126610683410157859870010940599873543601352101173863667892547714505549636421287935999999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>24 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -7230,7 +7260,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>54367928332783793015359013420253221366820315719740021881199747087202704202347727335785095429011099272842575871999999999999999999999999999999999999999999999999 54367928332783793015359013420253221366820315719740021881199747087202704202347727335785095429011099272842575871999999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>24 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -7260,7 +7290,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>163103784998351379046077040260759664100460947159220065643599241261608112607043182007355286287033297818527727615999999999999999999999999999999999999999999999999 163103784998351379046077040260759664100460947159220065643599241261608112607043182007355286287033297818527727615999999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>24 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -7290,7 +7320,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>652415139993405516184308161043038656401843788636880262574396965046432450428172728029421145148133191274110910463999999999999999999999999999999999999999999999999 652415139993405516184308161043038656401843788636880262574396965046432450428172728029421145148133191274110910463999999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>24 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -7320,7 +7350,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>3262075699967027580921540805215193282009218943184401312871984825232162252140863640147105725740665956370554552319999999999999999999999999999999999999999999999999 3262075699967027580921540805215193282009218943184401312871984825232162252140863640147105725740665956370554552319999999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>24 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -7350,7 +7380,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>19572454199802165485529244831291159692055313659106407877231908951392973512845181840882634354443995738223327313919999999999999999999999999999999999999999999999999 19572454199802165485529244831291159692055313659106407877231908951392973512845181840882634354443995738223327313919999999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>24 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -7380,7 +7410,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>137007179398615158398704713819038117844387195613744855140623362659750814589916272886178440481107970167563291197439999999999999999999999999999999999999999999999999 137007179398615158398704713819038117844387195613744855140623362659750814589916272886178440481107970167563291197439999999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>24 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -7410,7 +7440,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>1096057435188921267189637710552304942755097564909958841124986901278006516719330183089427523848863761340506329579519999999999999999999999999999999999999999999999999 1096057435188921267189637710552304942755097564909958841124986901278006516719330183089427523848863761340506329579519999999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>24 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -7440,7 +7470,7 @@
         </link>
     </model>
     <model name="Box">
-        <pose>9864516916700291404706739394970744484795878084189629570124882111502058650473971647804847714639773852064556966215679999999999999999999999999999999999999999999999999 9864516916700291404706739394970744484795878084189629570124882111502058650473971647804847714639773852064556966215679999999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
+        <pose>24 4 0.5 0 0 0 </pose>
         <link name="Box">
             <inertial>
                 <mass>1.0</mass>
@@ -7464,36 +7494,6 @@
                 <geometry>
                    <box>
                       <size>4.04003242176335e-12 4.04003242176335e-12 4.04003242176335e-12</size>
-                   </box>
-                </geometry>
-            </visual>
-        </link>
-    </model>
-    <model name="Box">
-        <pose>98645169167002914047067393949707444847958780841896295701248821115020586504739716478048477146397738520645569662156799999999999999999999999999999999999999999999999999 98645169167002914047067393949707444847958780841896295701248821115020586504739716478048477146397738520645569662156799999999999999999999999999999999999999999999999999 0.5 0 0 0 </pose>
-        <link name="Box">
-            <inertial>
-                <mass>1.0</mass>
-                <inertia>
-                    <ixx>0.083</ixx>
-                    <ixy>0.0</ixy>
-                    <ixz>0.0</ixz>
-                    <iyy>0.083</iyy>
-                    <iyz>0.0</iyz>
-                    <izz>0.083</izz>
-                </inertia>
-            </inertial>
-            <collision>
-                <geometry>
-                   <box>
-                      <size>3.6360291795870155e-12 3.6360291795870155e-12 3.6360291795870155e-12</size>
-                   </box>
-                </geometry>
-            </collision>
-            <visual>
-                <geometry>
-                   <box>
-                      <size>3.6360291795870155e-12 3.6360291795870155e-12 3.6360291795870155e-12</size>
                    </box>
                 </geometry>
             </visual>
