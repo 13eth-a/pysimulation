@@ -23,7 +23,7 @@ for r in range(5):
 
         height = ih
         width = iw
-        length = iw
+        length = il
 
         for i in range(10):
             
