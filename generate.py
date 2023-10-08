@@ -2,39 +2,34 @@ import pyrosim.pyrosim as pyrosim
 
 pyrosim.Start_SDF("boxes.sdf")
 
-# Dimensions for size
-initial_length = 1.0
-initial_width = 1.0
-initial_height = 1.0
+#dimensions for size
+ih = 1
+il = 1
+iw = 1
 
-# Initial position of the first tower
-x_start = 0
-y_start = 0
-z_start = 0.5
+#dimensions for position of first tower
+ix = 0
+iy = 0
+iz = 0.5
 
-# Gap between towers
-tower_gap = 2.0
+#distance between towers
+t_distance = 2
 
-# Number of rows and columns
-num_rows = 5
-num_columns = 5
+for r in range(5):
+    for c in range(5):
+        x = ix + c * t_distance
+        y = iy + c * t_distance
+        z = iz
 
-# Create towers
-for r in range(num_rows):
-    for c in range(num_columns):
-        x = x_start + c * tower_gap
-        y = y_start + r * tower_gap
-        z = z_start
-
-        length = initial_length
-        width = initial_width
-        height = initial_height
+        height = ih
+        width = iw
+        length = iw
 
         for i in range(10):
+            
             pyrosim.Send_Cube(name="Box", pos=[x, y, z], size=[height, length, width])
-            z += height  # Move the block up by its height
-            length *= 0.9  # Decrease dimensions by 10%
-            width *= 0.9
-            height *= 0.9
+            length *= .9
+            width *= .9
+            height *= .9
 
 pyrosim.End()
