@@ -19,8 +19,6 @@ for i in range(5):
         length = .9 * length
         width = .9 * width
         height = .9 * height
-        
-    x += 1
 
         
 
