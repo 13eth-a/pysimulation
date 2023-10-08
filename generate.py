@@ -15,10 +15,11 @@ z = 0.5
 for i in range(5):
     for i in range (10):
         pyrosim.Send_Cube(name="Box", pos=[x, y, z], size=[height, length, width])
-            
+        z += 1   
         length = .9 * length
         width = .9 * width
         height = .9 * height
+    x += 1
 
         
 
