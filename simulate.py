@@ -8,7 +8,7 @@ p.setAdditionalSearchPath(pybullet_data.getDataPath())
 
 p.setGravity(0, 0, -9.8)
 planeId = p.loadURDF("plane.urdf")
-p.loadSDF("world.sdf")
+p.loadSDF("worlds.sdf")
 import time
 
 physicsClient = p.connect(p.GUI)
