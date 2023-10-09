@@ -19,7 +19,7 @@ pyrosim.Prepare_To_Simulate(robotId)
 for i in range(1000):
     p.stepSimulation()
     time.sleep(1/60)
-    print(i)
+    
 
 #touch sensor for back leg
 backLegTouch = pyrosim.Get_Touch_Sensor_Value_For_Link("BackLeg")
