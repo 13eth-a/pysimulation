@@ -17,7 +17,8 @@ robotId = p.loadURDF("body.urdf")
 pyrosim.Prepare_To_Simulate(robotId)
 
 backLegSensorValues = numpy.zeros(10000)
-exit(print(backLegSensorValues))
+print(backLegSensorValues) 
+exit()
 
 #manage display time
 for i in range(1000):
