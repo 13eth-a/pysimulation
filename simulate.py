@@ -22,12 +22,12 @@ exit(print(backLegSensorValues))
 #manage display time
 for i in range(1000):
     p.stepSimulation()
-     #touch sensor for back leg
-    backLegTouch = pyrosim.Get_Touch_Sensor_Value_For_Link("BackLeg")
-    #print back leg sensor value
-    print(backLegTouch)
     time.sleep(1/60)
 
+ #touch sensor for back leg
+backLegTouch = pyrosim.Get_Touch_Sensor_Value_For_Link("BackLeg")
+#print back leg sensor value
+print(backLegTouch)
     
 
 
